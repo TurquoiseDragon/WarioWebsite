@@ -1,0 +1,8 @@
+html{background-color:#78226D;}
+.Navigation_Container{position:sticky;background-color:#E870A0;}
+.Navigation_Buttons{display:flex;justify-content:center; padding: 10px;}
+.Navigation_Home {background-color:#FDD50B;}
+.Navigation_Lore {background-color:#FDD50B;}
+.Navigation_Games {background-color:#FDD50B;}
+.Navigation_Spacing{padding-left: 10px;padding-right: 10px;}
+.Footer_Container{background-color:#0D8129; position:absolute; bottom: 0; width:100%;}
