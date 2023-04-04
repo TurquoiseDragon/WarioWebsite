@@ -1,8 +1,25 @@
 html{background-color:#78226D;}
-.Navigation_Container{position:sticky;background-color:#E870A0;}
+.Page_Container{background-color:#E870A0;}
+
+/* These Classes are for the Stick header for Navigation */
+.Navigation_Container{position:sticky;background-color:#E870A0; border: 4px solid #78226D; border-left:none;border-right:none; border-top: none;}
 .Navigation_Buttons{display:flex;justify-content:center; padding: 10px;}
 .Navigation_Home {background-color:#FDD50B;}
 .Navigation_Lore {background-color:#FDD50B;}
 .Navigation_Games {background-color:#FDD50B;}
 .Navigation_Spacing{padding-left: 10px;padding-right: 10px;}
+
+/*These Classes are Used for the First Page which has a Carousel */
+.Home_Title{text-align:center;}
+.Home_Footer{text-align:center;}
+
+/*These Classes are Used for the Second Page which has an Acordian */
+.Past_Title{text-align: center;}
+.Past_Footer{text-align:center;}
+
+/*These Classes are Used for the Third Page which has Cards*/
+.Game_Title{text-align: center;}
+.Game_Footer{text-align:center;}
+
+/*These Classes are Used for the Footer */
 .Footer_Container{background-color:#0D8129; position:absolute; bottom: 0; width:100%;}
