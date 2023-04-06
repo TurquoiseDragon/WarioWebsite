@@ -20,6 +20,7 @@ html{background-color:#78226D;}
 /*These Classes are Used for the Third Page which has Cards*/
 .Game_Title{text-align: center;}
 .Game_Footer{text-align:center;}
+.Game_Cards{display:flex; flex-wrap:wrap;}
 
 /*These Classes are Used for the Footer */
 .Footer_Container{background-color:#0D8129; position:absolute; bottom: 0; width:100%;}
