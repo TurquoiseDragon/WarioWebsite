@@ -26,13 +26,20 @@ html{background-color:#78226D;}
 .Past_Title{text-align: center;}
 .Past_Footer{text-align:center;}
 .Past_Content{display: flex;}
-.Past_ImageContainer{display: flex;flex-direction: column;}
+.Past_ImageContainer{display: flex;flex-direction: column;justify-content: space-between;}
 .Past_Image{width: 200px;}
+.Past_AccordianBody{background-color:#FDD50B;}
+.Past_AccordianHead{background-color:#78226D;color:#78226D;}
 
 /*These Classes are Used for the Third Page which has Cards*/
 .Game_Title{text-align: center;}
 .Game_Footer{text-align:center;}
-.Game_Cards{display:flex; flex-wrap:wrap;}
+.Game_Cards{display:flex; flex-wrap:wrap; flex-direction: row; justify-content: space-around}
+.Game_CardHead{text-align: center;}
+.Games_WarioLandCards{display: flex; flex-direction: column; border: 4px solid #78226D;}
+.Game_WarioWareCards{display: flex; flex-direction: column; border: 4px solid #78226D;}
+.Game_WarioSpinOffCards{display: flex; flex-direction: column; border: 4px solid #78226D;}
+.Game_Subtext{text-align: center;}
 
 /*These Classes are Used for the Footer */
 .Footer_Container{background-color:#0D8129; position:fixed; bottom: 0; width:100%;}
