@@ -52,4 +52,5 @@ html{background-color:#78226D;}
 @media screen and (max-width: 1024px){
     .Home_CarouselImage{width: 50%;}
     .Home_CarouselContainer{flex-direction:column-reverse;}
+    .Game_WarioWareCards{margin-left: 300px;margin-right: 300px; margin-top: 20px; margin-top: 20px;}
 }
