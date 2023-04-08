@@ -13,7 +13,7 @@ html{background-color:#78226D;}
 .Home_Title{text-align:center;}
 .Home_Subtext{text-align: center;}
 .Home_Footer{text-align:center;border-top: 4px solid #78226D; margin-bottom: 0px;}
-.Home_CarouselImage{width:30%;padding-top: 20px;}
+.Home_CarouselImage{width:100%;padding-top: 20px;}
 .Home_carousel{padding-bottom: 20px; border-top: 4px solid #78226D; background-color:#FDD50B;}
 .Home_CarouselContainer{display: flex; flex-direction: row-reverse; justify-content: space-around;}
 .Home_CarouselText{padding-top: 20px; margin-left: 12px;}
@@ -44,7 +44,12 @@ html{background-color:#78226D;}
 .card-body{background-color:#FDD50B;}
 
 /*These Classes are Used for the Footer */
-.Footer_Container{display: flex; justify-content: space-between; background-color:#0D8129; position:fixed; bottom: 0; width:100%; border-top: 4px solid #78226D;
+.Footer_Container{display: flex; justify-content: space-between; background-color:#0D8129; width:100%; border-top: 4px solid #78226D;
 }
 .Footer_Button{border-left: 4px solid #78226D;}
 .Navigation_Footer{background-color:#78226D; display: flex; justify-content: center;padding-top: 28px;}
+
+@media screen and (max-width: 1024px){
+    .Home_CarouselImage{width: 50%;}
+    .Home_CarouselContainer{flex-direction:column-reverse;}
+}
