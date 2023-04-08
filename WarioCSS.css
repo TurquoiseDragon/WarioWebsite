@@ -58,7 +58,7 @@ html{background-color:#78226D;}
     .Footer_Container-Special{position: inherit; bottom: inherit;}
     .Text_Margin{margin-left:30px; margin-right:30px;}
     .Past_Content{flex-direction: column;}
-    .Past_ImageContainer{flex-direction: row}
+    .Past_ImageContainer{flex-direction: row; justify-content: space-around}
 }
 @media screen and (max-width: 480px){
     .Text_Margin{margin-left:16px; margin-right:16px;}
